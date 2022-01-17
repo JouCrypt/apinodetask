@@ -4,20 +4,20 @@ const UsuariosSchema = mongoose.Schema({
 
 nombre:{
     type:String,
-    requied: true,
+    required: true,
     trim:true
 },
 
 email:{
     type:String,
-    requied: true,
+    required: true,
     trim:true,
     unique:true
 },
 
 password:{
     type:String,
-    requied: true,
+    required: true,
     trim:true
 },
 
